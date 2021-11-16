@@ -1,1 +1,14 @@
 /* styles go here */
+.form-field:not(:last-child) {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.container {
+  margin-bottom: 20px;
+  border: 2px solid rgba(0, 0, 0, 0.5);
+}
+
+.form-field.radio {
+  display: inline-block;
+}
